@@ -1,0 +1,199 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif cursive;
+	font-size: 18px;
+	align-items: center;
+	background: url("../images/login_bg-min.jpeg");
+	/*background: skyblue;*/
+	background-size: cover;
+}
+
+#login_form,#signUp_form{
+
+	position: absolute;
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+	background: #c77dff;
+	border-radius: 20px;
+	text-align: center;
+	-webkit-box-shadow: 10px 9px 24px 0px rgba(59,9,59,1);
+	-moz-box-shadow: 10px 9px 24px 0px rgba(59,9,59,1);
+	box-shadow: 10px 9px 24px 0px rgba(59,9,59,1);
+
+}
+
+h1{
+	color: #240046;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Capriola', sans-serif;
+
+}
+
+
+
+#login_form label{
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+
+#signUp_form label{
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+
+.errors{
+	display: block ;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: white;
+}
+
+
+#login_form input{
+	display: block;
+	width: 220px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 3px solid #5a189a;
+	border-radius: 10px;
+	outline: none;
+	color: black;
+	transition: 0.75s;
+
+}
+#login_form input:focus{
+	width: 270px;
+	margin: 10px auto;
+	border: 3px solid #f72585 ;
+}
+
+#signUp_form  input{
+	display: block;
+	width: 220px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 3px solid #5a189a;
+	border-radius: 10px;
+	outline: none;
+	color: black;
+	transition: 0.75s;
+
+}
+
+#signUp_form  input:focus{
+	width: 270px;
+	margin: 10px auto;
+	border: 3px solid #f72585 ;
+}
+
+
+#login_btn{
+
+	display: block;
+	width: 150px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 3px solid #5a189a;
+	border-radius: 24px;
+	outline: thick;
+	background: #501799;
+	color: white;
+	font-family: 'Noticia Text', serif; 
+	font-size: 24px;
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+
+#login_btn:hover{
+	background:#7333fc;
+}
+
+#signUp_text{
+	display: inline-block;
+	margin: 5px auto;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+#signUp_text:hover{
+	color: red;
+}
+
+
+#signUp_btn{
+
+	display: block;
+	width: 150px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 3px solid #5a189a;
+	border-radius: 24px;
+	outline: thick;
+	background: #501799;
+	color: white;
+	font-family: 'Noticia Text', serif; 
+	font-size: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+
+#signUp_btn:hover{
+	background:#7333fc;
+}
+
+
+.border-danger{
+
+}
+
+.text-danger{
+	color: red;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: 97f25e; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+/*.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+*/
+/* When moving the mouse over the close button */
+/*.closebtn:hover {
+  color: black;
+}*/

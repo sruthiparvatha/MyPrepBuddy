@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en" and dir="Itr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/login_signUp.css">
+	<title>Login</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap" rel="stylesheet">
+
+	<!-- Login Heading & Label Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Capriola&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+	<!-- JQuery CDN  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	
+	<form id="login_form" onsubmit="return false" action="home.html" method="POST" >
+
+	<h1>Login</h1>
+	<label for="email">Email</label>
+	<input type="text" name="log_email" id="log_email" placeholder="Email Address" autocomplete="off" > 
+	<small id="e_error" class="errors">We'll never share this info with anyone else.</small>
+	<label for="password">Password</label>
+	<input type="password" name="log_password" id="log_password" placeholder="Password" >
+	<small id="p_error" class="errors"></small>
+	<button type="submit" name="login_btn" id="login_btn" >Login</button>
+	<small>New User?</small>
+	<a href="SignUp.html" id="signUp_text">SignUp</small>
+
+
+</html>
+
+
